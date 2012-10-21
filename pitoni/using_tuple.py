@@ -1,8 +1,0 @@
-zoo = ('lollo', 'gioele', 'luca')
-print('nello zoo ci sono', len(zoo), 'animali')
-print('questi anmali si chiamano', zoo)
-print('ora lo zoo e stato annesso da un altro zoo')
-newzoo = ('mucca', 'pollo', 'filippo', zoo)
-print("l'ultimo animale che e stato annesso e", newzoo[3][2])
-print('questo zoo  gia aveva', newzoo[0:3])
-print('ora ha anche', zoo, 'per un totale di', len(newzoo)-1+len(newzoo[3]), 'animali :', newzoo)
